@@ -5,3 +5,4 @@
 *.pyc
 *.pid
 output/
+content/
