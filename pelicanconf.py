@@ -7,6 +7,9 @@ SITENAME = u'Braňo Žarnovičan\'s blog'
 SITEURL = ''
 
 PATH = 'content'
+FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 TIMEZONE = 'Europe/Prague'
 
