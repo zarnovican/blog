@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Brano Zarnovican'
-SITENAME = u'Brano Zarnovican blog'
+AUTHOR = u'Braňo Žarnovičan'
+SITENAME = u'Braňo Žarnovičan\'s blog'
 SITEURL = ''
 
 PATH = 'content'
