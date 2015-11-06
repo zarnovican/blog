@@ -26,8 +26,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('zarnovican@github', 'http://github.com/zarnovican'),
+    ('zarnovican@linkedin', 'http://cz.linkedin.com/in/zarnovican'),
+)
 
 DEFAULT_PAGINATION = 10
 
