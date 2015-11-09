@@ -15,7 +15,7 @@ TIMEZONE = 'Europe/Prague'
 
 DEFAULT_LANG = u'en'
 
-MD_EXTENSIONS = ['codehilite(noclasses=True)', 'extra', 'admonition', 'toc']
+MD_EXTENSIONS = ['codehilite(noclasses=True,guess_lang=False)', 'extra', 'admonition', 'toc']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
