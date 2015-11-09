@@ -15,6 +15,8 @@ TIMEZONE = 'Europe/Prague'
 
 DEFAULT_LANG = u'en'
 
+MD_EXTENSIONS = ['codehilite', 'extra', 'markdown.extensions.admonition']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -38,4 +40,6 @@ DEFAULT_PAGINATION = 10
 
 THEME = '/home/zarnovic/git/pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
+CUSTOM_CSS = 'static/custom.css'
+STATIC_PATHS = ['static']
 
