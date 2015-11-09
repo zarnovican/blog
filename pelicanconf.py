@@ -38,7 +38,14 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+PLUGIN_PATHS = ['/home/zarnovic/git/pelican-plugins']
+PLUGINS = ['tag_cloud']
+TAG_CLOUD_SORTING = 'alphabetically'
+TAG_CLOUD_STEPS = 2
+
 THEME = '/home/zarnovic/git/pelican-themes/pelican-bootstrap3'
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_TAGS_ON_SIDEBAR = True
 BOOTSTRAP_THEME = 'flatly'
 CUSTOM_CSS = 'static/custom.css'
 STATIC_PATHS = ['static']
