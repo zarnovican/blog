@@ -22,6 +22,7 @@ LINKS = (
 )
 
 DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_RETENTION = ('.git', )
 
 # Following items are often useful when publishing
 
