@@ -30,7 +30,7 @@ LINKS = ()
 # Social widget
 SOCIAL = (
     ('zarnovican@github', 'http://github.com/zarnovican'),
-    ('zarnovican@linkedin', 'http://cz.linkedin.com/in/zarnovican'),
+    ('zarnovican@linkedin', 'https://cz.linkedin.com/in/brano-zarnovican-79a5397'),
 )
 
 DEFAULT_PAGINATION = 10
