@@ -50,3 +50,6 @@ BOOTSTRAP_THEME = 'flatly'
 CUSTOM_CSS = 'static/custom.css'
 STATIC_PATHS = ['static']
 
+EXTRA_PATH_METADATA = {
+    'static/favicon.ico': {'path': 'favicon.ico'},
+}
