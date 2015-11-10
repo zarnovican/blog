@@ -38,7 +38,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-PLUGIN_PATHS = ['/home/zarnovic/git/pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['tag_cloud']
 TAG_CLOUD_SORTING = 'alphabetically'
 TAG_CLOUD_STEPS = 2
