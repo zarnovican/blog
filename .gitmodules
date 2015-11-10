@@ -2,3 +2,6 @@
 	path = output
 	url = git@github.com:zarnovican/zarnovican.github.io.git
 	ignore = all
+[submodule "pelican-bootstrap3"]
+	path = pelican-bootstrap3
+	url = git@github.com:DandyDev/pelican-bootstrap3.git

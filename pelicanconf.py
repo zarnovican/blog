@@ -43,7 +43,7 @@ PLUGINS = ['tag_cloud']
 TAG_CLOUD_SORTING = 'alphabetically'
 TAG_CLOUD_STEPS = 2
 
-THEME = '/home/zarnovic/git/pelican-themes/pelican-bootstrap3'
+THEME = 'pelican-bootstrap3'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_TAGS_ON_SIDEBAR = True
 BOOTSTRAP_THEME = 'flatly'
