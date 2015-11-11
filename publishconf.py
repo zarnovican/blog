@@ -17,8 +17,8 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 
 LINKS = (
-    ('Atom Feed', FEED_ALL_ATOM),
-    ('RSS Feed', FEED_ALL_RSS),
+    ('Atom Feed', '/'+FEED_ALL_ATOM),
+    ('RSS Feed', '/'+FEED_ALL_RSS),
 )
 
 DELETE_OUTPUT_DIRECTORY = True
